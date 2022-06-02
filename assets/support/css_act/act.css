@@ -1,0 +1,17 @@
+body{
+  background-color: #F5B9CA;
+}
+
+.Cadastrado h1{
+    color: #F8717E;
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    text-shadow: 1px 1px #B94C4C;
+}
+
+.voltar p{
+    color: #F8717E;
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    text-shadow: 1px 1px #B94C4C;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>login</title>
+  <link href="assets/support/css_login/login.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="header">
+    <div class="logo">
+      <img src="assets/support/imagens_support/logo_womanity-png.png" alt="logo_womanity">
+    </div>
+  </div>
+  <div id="main-container">
+    <h1>Faça login na Womanity</h1>
+    <form id="form" action="" onsubmit="return validateForm()" name= "formulario">
+          <div class="full-box ">
+            <label for="email">E-mail
+              <input type="text" name="email" id="email" placeholder="Digite seu e-mail" required onfocusout="validateEmail()">
+            </label>
+          </div>
+          <div class="half-box">
+            <label for="senha">Senha
+              <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required onfocusout="validateSenha()">
+            </label>
+          </div>
+          <div class="Concluir">
+            <input id="submit" type="submit" value="Concluir">
+          </div>
+    </form>
+  </div>
+</body>
+</html>
