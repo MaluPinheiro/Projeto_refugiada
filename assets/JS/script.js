@@ -59,6 +59,9 @@ function validatePassaporte(){
   if (insertPassaporte == "") {
     alert("O campo de Nº do passaporte deve ser preenchido");
     return false;
+  }else if(senha.length != 8){
+    alert("O campo de Nº do passaporte deve conter apenas 8 digitos");
+    return false;
   }
 };
 
