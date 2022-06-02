@@ -78,8 +78,8 @@ function validateData(){
 function validateComunicar(){
   console.log("called")
   let insertComunicar= document.forms["formulario"]["comunicar"].value;
-  if (insertComunicar == "") {
-    alert("O campo de Comunicação deve ser preenchido");
+  if (insertComunicar == "" || insertComunicar != "Sim" || insertComunicar != "Não") {
+    alert("O campo de Comunicação deve ser preenchido corretamente");
     return false;
   }
 };
@@ -87,8 +87,8 @@ function validateComunicar(){
 function validateAcompanhante(){
   console.log("called")
   let insertAcompanhante = document.forms["formulario"]["acompanhante"].value;
-  if (insertAcompanhante == "") {
-    alert("O campo de 'Acompanhanda de criança?' deve ser preenchido");
+  if (insertAcompanhante == "" || insertAcompanhante != "Sim" || insertAcompanhante != "Não") {
+    alert("O campo de 'Acompanhanda de criança?' deve ser preenchido corretamente");
     return false;
   }
 };
